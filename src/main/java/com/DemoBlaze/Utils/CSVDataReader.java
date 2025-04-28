@@ -3,7 +3,7 @@
 // (powered by FernFlower decompiler)
 //
 
-package DemoBlaze.Utils;
+package com.DemoBlaze.Utils;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

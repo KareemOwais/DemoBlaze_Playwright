@@ -1,4 +1,4 @@
-package DemoBlaze.Utils;
+package com.DemoBlaze.Utils;
 
 import org.testng.annotations.DataProvider;
 

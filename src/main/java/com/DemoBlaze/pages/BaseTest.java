@@ -25,6 +25,7 @@ public class BaseTest {
     @AfterMethod
     public void tearDown() {
         logger.info("-----------------  Test ENDED ------------");
+        PageFactory.closeDriver();
     }
 
 }

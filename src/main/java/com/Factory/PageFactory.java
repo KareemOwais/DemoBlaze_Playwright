@@ -18,10 +18,10 @@ public class PageFactory {
         return page;
     }
 
-    //public static void closeDriver() {
-      //  if (driver != null) {
-            //driver.quit();
-        //    driver = null;
-        //}
-    //}
+    public static void closeDriver() {
+        if (page != null) {
+            page.context().browser().close();
+            page = null;
+        }
+    }
 }
